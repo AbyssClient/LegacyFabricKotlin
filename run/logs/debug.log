@@ -1,0 +1,120 @@
+[18:11:15] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.8.9 with Fabric Loader 0.15.11
+[18:11:15] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
+[18:11:15] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor initializeGame()V
+[18:11:15] [main/DEBUG] (FabricLoader/GamePatch) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
+[18:11:15] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[18:11:15] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[18:11:15] [main/DEBUG] (FabricLoader/Mappings) Loading mappings took 38 ms
+[18:11:15] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[18:11:15] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 15.1 ms
+[18:11:16] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 40.6 ms
+[18:11:16] [main/INFO] (FabricLoader) Loading 5 mods:
+	- client 1.0.0
+	- fabricloader 0.15.11
+	- java 17
+	- minecraft 1.8.9
+	- mixinextras 0.3.5
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding E:\Coding\LegacyFabricKotlin\build\resources\main to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.3.5\3b577be20ea942610b3045e4f0cd909fa415a9d3\mixinextras-fabric-0.3.5.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer dev.lofiz.client.Client for mod client (key main)
+[18:11:16] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Error cleaning class output directory: .mixin.out
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)]
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/siamb/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.15.11/9c2be53d84ec5c4fb58bb5b8d9c8a629047c9ee9/fabric-loader-0.15.11.jar)]
+[18:11:16] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.7.59\9c6c59b742d8e038a15f64c1aa273a893a658424\realms-1.7.59.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding E:\Coding\LegacyFabricKotlin\build\classes\java\main to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding E:\Coding\LegacyFabricKotlin\build\classes\kotlin\main to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding E:\Coding\LegacyFabricKotlin\build\resources\main to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\fabric-loom\1.8.9\net.legacyfabric.yarn.1_8_9.1.8.9+build.535-v2\mappings.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.0.0\b48df2c4aede9586cc931ead433bc02d6fd7879e\kotlin-stdlib-2.0.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-fabric\0.3.5\3b577be20ea942610b3045e4f0cd909fa415a9d3\mixinextras-fabric-0.3.5.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\net.fabricmc\dev-launch-injector\0.2.1+build.8\da8bef7e6e2f952da707f282bdb46882a0fce5e3\dev-launch-injector-0.2.1+build.8.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.mojang\netty\1.8.8\a796914d1c8a55b4da9f4a8856dd9623375d8bb\netty-1.8.8.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\3.4.0\803ff252fedbd395baffd43b37341dc4a150a554\jna-3.4.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.6\306816fb57cf94f108a43c95731b08934dcae15c\jopt-simple-4.6.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.23.Final\294104aaf1781d6a56a07d561e792c5d0c95f45\netty-all-4.0.23.Final.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b04f3ee8f5e43fa3b162981b50bb72fe1acabb33\lwjgl-platform-2.9.4-nightly-20150209.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\6.5\320a2dfd18513a5f41b4e75729df684488cbd925\twitch-6.5.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.20.0\8f15415b022a25b473e8e16c28ae913186ffb9c4\jline-reader-3.20.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\siamb\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.20.0\d0ddcc708ddf527a3454c941b7b9225cc83a15ff\jline-terminal-3.20.0.jar to classpath.
+[18:11:16] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'preLaunch'
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Selecting config client.mixins.json
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Selecting config mixinextras.init.mixins.json
+[18:11:16] [main/DEBUG] (FabricLoader/MixinExtras|Service) com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Preparing client.mixins.json (1)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Preparing mixinextras.init.mixins.json (0)
+[18:11:16] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinMinecraftClient from client.mixins.json into net.minecraft.client.MinecraftClient
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) client.mixins.json:MixinMinecraftClient from mod client: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) client.mixins.json:MixinMinecraftClient from mod client->@Inject::initializeGame(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) client.mixins.json:MixinMinecraftClient from mod client->@Inject::initializeGame(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[18:11:16] [main/DEBUG] (FabricLoader/Mixin) client.mixins.json:MixinMinecraftClient from mod client->@Inject::initializeGame(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[18:11:16] [main/INFO] (net.minecraft.client.MinecraftClient) Setting user: Player144
+[18:11:16] [main/INFO] (net.minecraft.client.MinecraftClient) (Session ID is token:FabricMC:Player144)
+[18:11:17] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'main'
+[18:11:17] [main/DEBUG] (FabricLoader/Entrypoint) No subscribers for entrypoint 'client'
+[18:11:17] [main/INFO] (net.minecraft.client.MinecraftClient) LWJGL Version: 2.9.4
+[18:11:18] [main/INFO] (net.minecraft.resource.ReloadableResourceManagerImpl) Reloading ResourceManager: Default
+[18:11:18] [main/ERROR] (net.minecraft.client.MinecraftClient) Couldn't initialize twitch stream
+[18:11:18] [Sound Library Loader/INFO] (net.minecraft.client.sound.SoundSystem) Starting up SoundSystem...
+[18:11:18] [Thread-4/INFO] (net.minecraft.client.sound.SoundSystem) Initializing LWJGL OpenAL
+[18:11:18] [Thread-4/INFO] (net.minecraft.client.sound.SoundSystem) (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:11:18] [Thread-4/INFO] (net.minecraft.client.sound.SoundSystem) OpenAL initialized.
+[18:11:19] [Sound Library Loader/INFO] (net.minecraft.client.sound.SoundSystem) Sound engine started
+[18:11:19] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 512x512 textures-atlas
+[18:11:46] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Starting integrated minecraft server version 1.8.9
+[18:11:46] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Generating keypair
+[18:11:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Preparing start region for level 0
+[18:11:47] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Changing view distance to 8, from 10
+[18:11:47] [Server thread/INFO] (net.minecraft.server.PlayerManager) Player144[local:E:c2c49691] logged in with entity id 292 at (161.05795528182554, 69.0, 270.69999998807907)
+[18:11:47] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player144 joined the game
+[18:11:49] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'Test World'/Overworld
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'Test World'/Nether
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'Test World'/The End
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Stopping server
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving players
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving worlds
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'Test World'/Overworld
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'Test World'/Nether
+[18:11:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'Test World'/The End
+[18:11:49] [main/INFO] (net.minecraft.client.MinecraftClient) Stopping!
+[18:11:49] [main/INFO] (net.minecraft.client.sound.SoundSystem) SoundSystem shutting down...
+[18:11:49] [main/WARN] (net.minecraft.client.sound.SoundSystem) Author: Paul Lamb, www.paulscode.com
